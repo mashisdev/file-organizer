@@ -2,7 +2,7 @@
 
 A terminal-based Python application to automatically organize files into categorized folders (images, videos, documents, etc.) based on their extensions. No third-party Python packages required, only built-in modules `os` and `shutil`.
 
-### Usage:
+### 🔧Usage:
 1. Clone and run
 
    ```bash
@@ -40,4 +40,43 @@ A terminal-based Python application to automatically organize files into categor
 
    🎉 All files have been successfully organized!
    ```
+
+## 🧪Tests
+This project includes automated tests written with [`pytest`](https://docs.pytest.org/), which help verify that the functions of the file organizer work correctly.
+
+<details>
+<summary><strong>What is tested?</strong></summary>
+
+- `get_category(extension)`: ensures file extensions are correctly classified into categories.
+- `format_size(bytes_size)`: verifies that file sizes are properly formatted (e.g., bytes → KB/MB).
+- `get_folder_size(path)`: confirms that the total size of a folder is calculated accurately.
+- `organize_files(folder_path)`: tests that files are moved into the correct category folders based on their extensions.
+
+</details>
+
+<details>
+<summary><strong>How to run the tests</strong></summary>
+   
+   Make sure `pytest` is installed and run:
+   
+   ```bash
+   pip install -U pytest
+   pytest
+   ```
+
+   Output:
+
+   ```bash
+   =================== test session starts ===================
+   platform
+   rootdir:
+   collected 4 items
+   
+   test_main.py ....                                    [100%]
+   
+   ==================== all tests passed =====================
+   ```
+
+</details>
+
    
