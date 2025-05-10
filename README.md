@@ -4,16 +4,19 @@ A terminal-based Python application to automatically organize files into categor
 
 ### Usage:
 1. Clone and run
+
    ```bash
    git clone https://github.com/your-username/file-organizer.git
    cd file-organizer
    py main.py
    ```
-2. Enter the path to the folder you want to organize:
+3. Enter the path to the folder you want to organize:
+   
    ```bash
    📂 Enter the path of the folder you want to organize: C:\Users\Usuario\Downloads
    ```
-3. Return example:
+4. Return example:
+   
    ```bash
    🔄 Organizing files...
    ✅ Moved: resume.pdf → Documents/
