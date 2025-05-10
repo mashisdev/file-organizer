@@ -1,6 +1,6 @@
 # File organizer 📂
 
-A terminal-based Python application to automatically organize files into categorized folders (images, videos, documents, etc.) based on their extensions.
+A terminal-based Python application to automatically organize files into categorized folders (images, videos, documents, etc.) based on their extensions. No third-party Python packages required, only built-in modules `os` and `shutil`.
 
 ### Usage:
 1. Clone and run
